@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI22 Website</title>
+
+    <!--==================== FONTAWESOME CDN ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--==================== GOOGLE FONTS (MONTSERRAT) ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--==================== GOOGLE FONTS (NOTO SERIF DISPLAY) ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!--==================== LOGIN FORM ====================-->
+
+    <!--==================== POPUP ====================-->
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>Achtung! Wichtige Regeln</h2>
+        <p>1.An keine andere Person außerhalb der Klasse teilen!</p>
+        <p>2.KEINE SCREENSHOTS!</p>
+        <p>3.Nur schulrelevante Dateien hochladen!</p>
+    </div>
+
+    <!--==================== NAVBAR ====================-->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="logolink">KI</a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Hauptmenü</a></li>
+                <li><a href="fächer.html">Fächer</a></li>
+                <li><a href="mitteilungen.html">Mitteilungen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <!--==================== HEADER ====================-->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Willkommen zur KI Website</h1>
+                <p><h4>Diese Website wurde für schulische zwecke von G. Daoud programmiert. Du wirst in der Lage sein, deine Aufzeichnungen von der Unterrichtsstunde auf dieser Website hochzuladen, und die Aufzeichnungen deiner Klassenkameraden zu downloaden.</h4></p>
+                <a href="fächer.html" class="btn btn-primary">Loslegen</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/sticker hi.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--==================== DISCORD ====================-->
+    <section class="discord">
+        <div class="container discord__container">
+            <div class="discord__left">
+                <i class="fa-brands fa-discord"></i>
+                <h1>Discord</h1>
+                <p><h4>Hier kannst du Member des Discord-Servers KI22 werden. Wir freuen uns über jeden Member.</p>
+                <p>In dem Server hast du die Möglichkeit, uns zu kontaktieren wenn du Probleme mit der Website hast, oder auch wenn es allgemein Probleme im Server gibt.</p>
+                <p>In dem Server kannst du mit deinen Klassenkameraden, im Voice oder Videochat abhängen.</h4></p>
+                <a href="https://discord.io/KI-22" class="btn btn-discord">Member werden</a>
+            </div> 
+        </div>
+        <div class="discord__right">
+            <div class="discord__right-image">
+                <img src="./images/giscord qr code.png">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
